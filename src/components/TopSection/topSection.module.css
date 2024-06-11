@@ -1,0 +1,15 @@
+.topRow {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.topBox {
+  display: flex;
+  column-gap: 55px;
+  justify-content: center;
+}
+
+.topBoxRight {
+  width: 430px;
+}
