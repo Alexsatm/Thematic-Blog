@@ -31,14 +31,16 @@ export const Articles = () => {
         <div className="heading-line"></div>
       </div>
       {/*  */}
-      <div className='main-article'>
+      <div className="main-article">
         <AllArticles />
         {/* tags */}
-        <div className='tags-box'>
-          <h4 className='tags'>tags.</h4>
+        <div className="tags-box">
+          <h4 className="tags">tags.</h4>
           <ul>
             {tags.map((item, index) => (
-              <li className='tags-item' key={index}>{item}</li>
+              <li className="tags-item" key={index}>
+                {item}
+              </li>
             ))}
           </ul>
         </div>

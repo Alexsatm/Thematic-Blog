@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 li {
@@ -21,27 +21,27 @@ a {
 
 .title {
   font-size: 33px;
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Libre Baskerville', serif;
   margin-bottom: 12px;
 }
 
 .subtitle {
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #8d8d8d;
 }
 
 .meta {
   color: #8d8d8d;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .desc {
   margin-top: 14px;
   max-width: 430px;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 24px;
 }
 .heading-box {
@@ -53,14 +53,14 @@ a {
 
 .heading {
   font-size: 42px;
-  font-family: "Open Sans", sans-serif;
-  color: #1C1C1C;
+  font-family: 'Open Sans', sans-serif;
+  color: #1c1c1c;
 }
 
 .heading-line {
   margin-top: 15px;
   width: 190px;
-  border: 3px solid #1C1C1C;
+  border: 3px solid #1c1c1c;
 }
 /* -------------------- */
 .main-article {
@@ -70,14 +70,14 @@ a {
 }
 
 .tags {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
 .tags-item {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin-bottom: 22px;
 }

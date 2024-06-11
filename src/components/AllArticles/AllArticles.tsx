@@ -5,7 +5,6 @@ import newest2 from '../../assets/newWest-2.png';
 import newest3 from '../../assets/newWest-3.png';
 import newest4 from '../../assets/newWest-4.png';
 
-
 export const AllArticles = () => {
   return (
     <div>
