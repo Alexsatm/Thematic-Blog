@@ -13,12 +13,20 @@
 
 .topBox {
   display: flex;
-  column-gap: 55px;
+  column-gap: 37px;
   justify-content: center;
 }
 
 .topBoxRight {
-  width: 578px;
+  width: 538px;
+}
+
+.desc {
+  margin-top: 14px;
+  max-width: 538px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
 }
 
 .btn {
