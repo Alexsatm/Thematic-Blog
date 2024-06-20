@@ -1,5 +1,8 @@
 import { AllArticles } from '../components/AllArticles/AllArticles';
 
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
+
 const tags = [
   'Technology',
   'Open Source',
@@ -25,7 +28,7 @@ const tags = [
 
 export const Articles = () => {
   return (
-    <div>
+    <div className='articles'>
       <div className="heading-box">
         <h2 className="heading">All Articles</h2>
         <div className="heading-line"></div>
@@ -44,8 +47,14 @@ export const Articles = () => {
             ))}
           </ul>
         </div>
+        {/*  */}
       </div>
       {/* pagination */}
+      <div className='pagination-box'>
+        <Stack spacing={2}>
+          <Pagination count={10} variant="outlined" shape="rounded" />
+        </Stack>
+        </div>
     </div>
   );
 };
