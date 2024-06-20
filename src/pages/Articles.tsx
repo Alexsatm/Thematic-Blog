@@ -28,7 +28,7 @@ const tags = [
 
 export const Articles = () => {
   return (
-    <div className='articles'>
+    <div className="articles">
       <div className="heading-box">
         <h2 className="heading">All Articles</h2>
         <div className="heading-line"></div>
@@ -50,11 +50,11 @@ export const Articles = () => {
         {/*  */}
       </div>
       {/* pagination */}
-      <div className='pagination-box'>
+      <div className="pagination-box">
         <Stack spacing={2}>
           <Pagination count={10} variant="outlined" shape="rounded" />
         </Stack>
-        </div>
+      </div>
     </div>
   );
 };
