@@ -86,6 +86,12 @@ a {
   background-color: #fff;
 }
 
+.allArticleRow {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
 
 .main-article {
   display: flex;

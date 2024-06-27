@@ -30,15 +30,24 @@ export const Favorites = () => {
   return (
     <div className='articles'>
       <div className="heading-box">
-        <h2 className="heading">Favorite Articles</h2>
+        <h2 className="heading">Избранные статьи</h2>
         <div className="heading-line"></div>
       </div>
       {/*  */}
       <div className="main-article">
-        <AllArticles />
+        <div className='allArticleRow'>
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+          <AllArticles />
+        </div>
         {/* tags */}
         <div className="tags-box">
-          <h4 className="tags">tags.</h4>
+          <h4 className="tags">теги.</h4>
           <ul>
             {tags.map((item, index) => (
               <li className="tags-item" key={index}>
