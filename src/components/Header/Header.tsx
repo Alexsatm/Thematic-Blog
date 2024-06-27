@@ -12,21 +12,21 @@ export const Header = () => {
         <nav>
           <ul className={styles.navItem}>
             <Link to="/">
-              <li className={styles.navList}>Home</li>
+              <li className={styles.navList}>Главная</li>
             </Link>
             <Link to="/articles">
-              <li className={styles.navList}>Articles</li>
+              <li className={styles.navList}>Статьи</li>
             </Link>
             <Link to="/favorites">
-              <li className={styles.navList}>Favorites</li>
+              <li className={styles.navList}>Избранное</li>
             </Link>
           </ul>
         </nav>
       </div>
       {/*  */}
       <div className={styles.rightNav}>
-        <img src={search} alt="search" />
-        <button className={styles.btn}>Login</button>
+        <img className={styles.search} src={search} alt="search" />
+        <button className={styles.btn}>Вход</button>
       </div>
     </div>
   );

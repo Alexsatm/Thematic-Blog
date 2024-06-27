@@ -9,7 +9,7 @@ export const Newest = () => {
   return (
     <div className={styles.top}>
       <div className="heading-box">
-        <h2 className="heading">Newest</h2>
+        <h2 className="heading">Свежие</h2>
         <div className="heading-line"></div>
       </div>
       <div className={styles.topRow}>
@@ -67,7 +67,7 @@ export const Newest = () => {
         </div>
         {/*  */}
       </div>
-      <button className={styles.btn}>See all</button>
+      <button className={styles.btn}>Увидеть все</button>
     </div>
   );
 };

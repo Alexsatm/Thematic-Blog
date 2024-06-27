@@ -17,6 +17,7 @@ a {
 .app {
   max-width: 1366px;
   margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .title {
@@ -63,6 +64,29 @@ a {
   border: 3px solid #1c1c1c;
 }
 /* -------------------- */
+
+.hero {
+  background-image: url('../src/assets/heroImg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1316px;
+  height: 592px;
+  margin: 0 auto;
+}
+
+.article {
+  padding: 76px 40px 96px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 45px;
+  width: 509px;
+  height: 483px;
+  background-color: #fff;
+}
+
+
 .main-article {
   display: flex;
   justify-content: center;
@@ -87,7 +111,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 85px;
 }
 
 .pagination-box {

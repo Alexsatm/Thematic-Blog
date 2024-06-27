@@ -7,7 +7,7 @@ export const TopSection = () => {
   return (
     <div className={styles.top}>
       <div className="heading-box">
-        <h2 className="heading">Top 3</h2>
+        <h2 className="heading">Топ 3</h2>
         <div className="heading-line"></div>
       </div>
       <div className={styles.topRow}>
