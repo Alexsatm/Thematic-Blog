@@ -26,7 +26,8 @@ export const Header = () => {
       {/*  */}
       <div className={styles.rightNav}>
         <img className={styles.search} src={search} alt="search" />
-        <button className={styles.btn}>Вход</button>
+        <Link to="/forms"><button className={styles.btn}>Вход</button></Link>
+        
       </div>
     </div>
   );
