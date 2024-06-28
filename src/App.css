@@ -146,7 +146,7 @@ a {
   align-items: center;
   width: 324px;
   height: 58px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 10px;
   column-gap: 15px;
   padding: 15px;
@@ -159,7 +159,40 @@ a {
 }
 
 .input input::placeholder {
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+.check {
+  display: flex;
+}
+
+.check label,
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8d8d8d;
+}
+
+.check label {
+  margin-right: 105px;
+  margin-left: 5px;
+}
+
+.input-box button {
+  width: 323px;
+  height: 58px;
+  border-radius: 10px;
+  border: 2px solid #1c1c1c;
+  font-size: 25px;
+  background-color: #fff;
+  /* margin-top: 55px; */
+  transition: all 0.15s;
+}
+
+.input-box button:active {
+  transform: translateY(3px);
+  transition: all 0.15s;
 }

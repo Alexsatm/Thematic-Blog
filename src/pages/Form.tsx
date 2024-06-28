@@ -17,6 +17,13 @@ export function Form () {
           <img src={keyIcon} alt="keyIcon" />
           <input type="password" placeholder='Password' />
         </div>
+        <div className='check'>
+          <input type="checkbox" id='check'/>
+          <label htmlFor="check">Remember me</label>
+          <p>Forgot password?</p>
+        </div>
+        <button>Вход</button>
+        <button>Зарегистрироваться</button>
       </div>
     </form>
     {/* <form className="sign-up"></form> */}
