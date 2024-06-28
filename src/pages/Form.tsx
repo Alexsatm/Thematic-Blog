@@ -8,12 +8,12 @@ export function Form () {
     <form className="sign-in">
       <h2 className="heading">Sign In</h2>
       <p className="desc">Sign in to get the most out of nuntium.</p>
-      <div className="input-box">
-        <div className="input">
+      <div className="input-wrapper">
+        <div className="input-box">
           <img src={userIcon} alt="userIcon" />
           <input type="text" placeholder='Username' />
         </div>
-        <div className="input">
+        <div className="input-box">
           <img src={keyIcon} alt="keyIcon" />
           <input type="password" placeholder='Password' />
         </div>
