@@ -201,8 +201,8 @@ p {
   border: 2px solid #1c1c1c;
   font-size: 25px;
   background-color: #fff;
-  /* margin-top: 55px; */
   transition: all 0.15s;
+  cursor: pointer;
 }
 
 .forms button:active {
@@ -225,4 +225,8 @@ p {
   flex-wrap: wrap;
   flex-direction: column;
   row-gap: 4px;
+}
+
+.forms .sign-up {
+  display: none;
 }

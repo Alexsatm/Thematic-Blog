@@ -8,6 +8,7 @@ import './App.css';
 import { Header } from './components/Header/Header';
 import { Favorites } from './pages/Favorites';
 import { Form } from './pages/Form';
+import { useState } from 'react';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/favorites" element={<Favorites />} />
-        <Route path="/forms" element={<Form />} />
+        <Route path="/forms" element={<Form />}  />
       </Routes>
     </div>
   );

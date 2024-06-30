@@ -5,10 +5,14 @@ import emailIcon from '../assets/email.svg';
 import { useState } from 'react';
 
 export function Form() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
+
+  const submitForm = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="forms">
-      <form className="sign-in">
+      <form className="sign-in" onSubmit={submitForm}>
         <h2 className="heading">Sign In</h2>
         <p className="desc">Sign in to get the most out of nuntium.</p>
         <div className="input-box">
@@ -24,14 +28,17 @@ export function Form() {
           <label htmlFor="check">Remember me</label>
           <p>Forgot password?</p>
         </div>
-        <button>Вход</button>
-        <button>Зарегистрироваться</button>
+        <button type="submit">Вход</button>
+        <button type="submit">Зарегистрироваться</button>
       </form>
       {/* ------------------------------------------- */}
-      <form className="sign-up">
+      <form className="sign-up" onSubmit={submitForm}>
         <h2 className="heading">Welcome</h2>
         <p className="desc">Sign in to get the most out of nuntium.</p>
-        <div className='avatar'><img src={plusIcon} alt="plus" />Avatar</div>
+        <div className="avatar">
+          <img src={plusIcon} alt="plus" />
+          Avatar
+        </div>
         <div className="input-box">
           <img src={userIcon} alt="userIcon" />
           <input type="text" placeholder="Username" />
@@ -48,7 +55,7 @@ export function Form() {
           <img src={keyIcon} alt="keyIcon" />
           <input type="password" placeholder="Confirm password" />
         </div>
-        <button>Начать</button>
+        <button type="submit">Начать</button>
       </form>
     </div>
   );
